@@ -20,8 +20,6 @@ void ssort(int a[],int n)
         a[i]=max;
        
     }
-    
-
 }
 void print(int a[],int n)
 {
@@ -45,6 +43,5 @@ int main()
     }
     print(a,n);
     ssort(a,n);
-
     print(a,n);    
 }
